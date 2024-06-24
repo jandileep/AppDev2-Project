@@ -1,0 +1,33 @@
+2023.07.22 17:17:00 INFO  Started: Metals version 1.0.0 in folders '/Users/jananidileepan/Desktop/Ticket Booking 2' for client Visual Studio Code 1.79.2.
+Jul 22, 2023 5:17:00 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Jul 22, 2023 5:17:00 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jul 22, 2023 5:17:00 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jul 22, 2023 5:17:01 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/jananidileepan/Desktop/Ticket Booking 2/.metals/metals (H2 2.1)
+Jul 22, 2023 5:17:01 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Jul 22, 2023 5:17:01 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.058s)
+Jul 22, 2023 5:17:01 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Jul 22, 2023 5:17:01 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Jul 22, 2023 5:17:01 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Jul 22, 2023 5:17:01 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Jul 22, 2023 5:17:01 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Jul 22, 2023 5:17:01 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Jul 22, 2023 5:17:01 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.151s)
+2023.07.22 17:17:02 INFO  time: initialize in 1.57s
+2023.07.22 17:17:09 WARN  Build server is not auto-connectable.
+2023.07.22 17:17:09 WARN  no build tool detected in workspace '/Users/jananidileepan/Desktop/Ticket Booking 2'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.07.23 09:46:19 INFO  Shutting down server
+2023.07.23 09:46:19 INFO  shutting down Metals
+2023.07.23 09:46:19 INFO  Exiting server
