@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monthly Reminder</title>
+</head>
+<body>
+    <h1>Monthly Reminder</h1>
+   <h2>Movie Summary</h2> 
+    <table>
+        <thead>
+            <tr>
+                <th> Movie Booked </th>
+                <th> No of booked seats</th>
+            </tr>
+        </thead>
+        <tbody>
+             {% for movie in movies %}
+        <tr>
+            <td> {{movie}}</td>
+            <td> {{movies[movie]}}</td>
+        </tr>
+        {% endfor %}
+            </tbody>
+    </table>
+    <h2> Theatre Summary </h2>
+    <table>
+        <thead>
+            <tr>
+                <th> Theatre </th>
+            <th>No of Booking </th>
+            </tr>
+            {% for theatre in theatres %}
+            <tr>
+                <td> {{theatre}} </td>
+                <td> {{theatres[theatre]}}</td>
+            </tr>
+            {% endfor %}
+        </thead>
+    </table>
+<p> Thank you for booking tickets at JanBooking. 
+    Please do book more tickets to entertain yourself and get releif from stress 😊 </p>
+</body>
+</html>
